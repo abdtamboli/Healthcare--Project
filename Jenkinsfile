@@ -16,7 +16,7 @@ pipeline {
             }
         }
 
-        stage("Building the Insurance Application"){
+        stage("Building the Healthcare Application"){
             steps{
                 script{
                     echo "Cleaning ...Compiling...Testing....Packaging... "
@@ -25,7 +25,7 @@ pipeline {
             }
         }
 
-        stage('publish the Insurance Application test reports'){
+        stage('publish the Healthcare Application test reports'){
             steps{
                 script{
                      publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '/var/jenkins_home/workspace/Healthcare-capstone-project/target/surefire-reports', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
