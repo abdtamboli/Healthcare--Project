@@ -4,7 +4,7 @@ pipeline {
         maven 'Maven'
     }
      environment{
-        IMAGE_NAME = 'Healthcare-app-1.0.0'
+        IMAGE_NAME = 'Healthcare-app-2.0.0'
     }
 
     stages{

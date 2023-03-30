@@ -23,7 +23,7 @@ spec:
       - name: myregcred
       containers:
       - name: java-maven
-        image: iamabhi1997/my-apps:Healthcare-app-1.0.0
+        image: iamabhi1997/my-apps:Healthcare-app-2.0.0
         ports:
         - containerPort: 8082
 ---
