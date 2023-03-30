@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploying Healthcare app on cluster'){
+        stage('Selenium runnable jar running for test the healthcare application'){
             steps{
                 script{
                     echo 'Testing the Healthcare app by Seleniun test'
