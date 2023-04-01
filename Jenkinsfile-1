@@ -17,7 +17,7 @@ pipeline {
                 script{
                     echo 'Testing the Healthcare app by Seleniun test'
                     dir('Selenium'){
-                        sh "java -jar healthcare-selenium-runnable.jar"
+                        sh "java -jar Banking-selenium-runnable.jar"
                         
                     }
                 }
