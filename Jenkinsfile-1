@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage('Selenium runnable jar running for test the Banking application'){
+        stage('Selenium runnable jar running for test the Healthcare application'){
             steps{
                 script{
                     echo 'Testing the Healthcare app by Seleniun test'
